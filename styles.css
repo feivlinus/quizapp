@@ -6,7 +6,6 @@
 
 body {
   margin: 0;
-
   background-color: white;
 }
 
@@ -51,11 +50,11 @@ main.quiz {
 }
 
 .quiztask h2 {
-  font-size: 6vw;
+  font-size: 8vw;
 }
 
 .quiztask p {
-  font-size: 6vw;
+  font-size: 8vw;
   font-style: italic;
 }
 
@@ -75,21 +74,27 @@ button.answerbutton {
   margin-top: 5%;
   margin-bottom: 5%;
   left: 50%;
+  font-size: 6vw;
 }
 
 .quiztask ul {
   list-style: none;
   display: flex;
-  flex-direction: start;
+  flex-direction: row;
   padding: 5%;
+  flex-wrap: wrap;
 }
-
+/*
+    Tag Einträge
+*/
 .quiztask ul li {
   color: #000066;
   padding: 1%;
   margin-right: 5%;
   border-style: solid;
   border-radius: 5px;
+  font-size: 4vw;
+  margin-bottom: 2.5%;
 }
 
 .quiztask ul .fa.fa-bookmark-o {
@@ -103,9 +108,6 @@ footer {
   bottom: 0px;
 }
 
-nav {
-}
-
 ul.nav-list {
   display: flex;
   justify-content: space-around;
@@ -114,9 +116,6 @@ ul.nav-list {
   font-size: 6vw;
   padding: 5%;
   margin: 0px;
-}
-
-li.nav-link {
 }
 
 li.nav-link a {
