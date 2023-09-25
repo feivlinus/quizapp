@@ -5,6 +5,7 @@
 }
 
 body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin: 0;
   background-color: white;
 }
@@ -35,7 +36,7 @@ main.quiz {
 .quiztask i {
   float: right;
   position: relative;
-  top: -5%;
+  top: -2.5%;
   left: -2.5%;
   background-color: white;
   font-size: 8vw;
@@ -47,6 +48,7 @@ main.quiz {
   border-width: 1px;
   color: #000066;
   margin-bottom: 10%;
+  box-shadow: 5px 5px 5px 2px lightgray;
 }
 
 .quiztask h2 {
@@ -69,12 +71,19 @@ button.answerbutton {
   position: relative;
   border-style: solid;
   border-radius: 5px;
+  border-width: 0px;
   padding: 1%;
   transform: translateX(-50%);
   margin-top: 5%;
   margin-bottom: 5%;
   left: 50%;
-  font-size: 6vw;
+  font-size: 5vw;
+  box-shadow: 1px 1px 4px 2px grey;
+}
+
+button.answerbutton:active {
+  color: white;
+  background-color: #000066;
 }
 
 .quiztask ul {
@@ -95,6 +104,7 @@ button.answerbutton {
   border-radius: 5px;
   font-size: 4vw;
   margin-bottom: 2.5%;
+  border-width: 1px;
 }
 
 .quiztask ul .fa.fa-bookmark-o {
@@ -107,6 +117,10 @@ footer {
   z-index: 1;
   bottom: 0px;
 }
+
+/*
+    Footer Navigation
+*/
 
 ul.nav-list {
   display: flex;
