@@ -1,0 +1,124 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+  background-color: white;
+}
+
+header {
+  background-color: #ffcc00;
+  width: 100%;
+  text-align: center;
+  top: 0px;
+  margin-bottom: 10%;
+}
+
+header h1 {
+  padding: 2.5%;
+  margin-top: 0px;
+  color: #000066;
+  font-size: 16vw;
+  margin: 0px;
+}
+
+main.quiz {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 25%;
+}
+
+.quiztask i {
+  float: right;
+  position: relative;
+  top: -5%;
+  left: -2.5%;
+  background-color: white;
+  font-size: 8vw;
+}
+
+.quiztask {
+  width: 90%;
+  border-style: solid;
+  border-width: 1px;
+  color: #000066;
+  margin-bottom: 10%;
+}
+
+.quiztask h2 {
+  font-size: 6vw;
+}
+
+.quiztask p {
+  font-size: 6vw;
+  font-style: italic;
+}
+
+.quiztask h2,
+.quiztask p {
+  text-align: center;
+  text-wrap: balance;
+}
+
+button.answerbutton {
+  all: unset;
+  position: relative;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 1%;
+  transform: translateX(-50%);
+  margin-top: 5%;
+  margin-bottom: 5%;
+  left: 50%;
+}
+
+.quiztask ul {
+  list-style: none;
+  display: flex;
+  flex-direction: start;
+  padding: 5%;
+}
+
+.quiztask ul li {
+  color: #000066;
+  padding: 1%;
+  margin-right: 5%;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.quiztask ul .fa.fa-bookmark-o {
+  font-size: 36px;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  bottom: 0px;
+}
+
+nav {
+}
+
+ul.nav-list {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffcc00;
+  list-style-type: none;
+  font-size: 6vw;
+  padding: 5%;
+  margin: 0px;
+}
+
+li.nav-link {
+}
+
+li.nav-link a {
+  color: #000066;
+}
