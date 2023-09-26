@@ -19,7 +19,8 @@ header {
 }
 
 header h1 {
-  padding: 2.5%;
+  padding: 2%;
+  margin-bottom: 2%;
   margin-top: 0px;
   color: #000066;
   font-size: 16vw;
